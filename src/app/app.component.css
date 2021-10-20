@@ -1,0 +1,11 @@
+app-main {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+app-footer {
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  background: #333;
+  color: white;
+}

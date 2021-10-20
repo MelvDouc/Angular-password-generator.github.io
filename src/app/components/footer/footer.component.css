@@ -1,0 +1,46 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css");
+
+.left, .right {
+  padding: .66em;
+}
+
+.left {
+  display: grid;
+  place-items: center;
+}
+
+.right ul {
+  list-style: none;
+  display: flex;
+}
+
+.right li {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.right a {
+  display: grid;
+  place-items: center;
+  width: max-content;
+  text-decoration: none;
+  color: inherit;
+}
+
+.right i {
+  font-size: 2rem;
+}
+
+i.bi-github:hover {
+  color: rgb(253, 253, 181);
+}
+
+i.bi-linkedin:hover {
+  color: rgb(10, 102, 194);
+}
+
+i.bi-youtube:hover {
+  color: red;
+}

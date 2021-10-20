@@ -1,0 +1,13 @@
+<div id="options-container">
+  <div id="options">
+    <app-number [id]="'length'"></app-number>
+    <app-checkbox [id]="'lowercase'"></app-checkbox>
+    <app-checkbox [id]="'uppercase'"></app-checkbox>
+    <app-checkbox [id]="'digits'"></app-checkbox>
+    <app-checkbox [id]="'symbols'"></app-checkbox>
+  </div>
+  <div id="controls">
+    <app-button [id]="'new-password-button'" [text]="'New Password'" (clickHandler)="newPassword()"></app-button>
+    <app-button [id]="'copy-password-button'" [text]="'Copy Password'" (clickHandler)="copyPassword()"></app-button>
+  </div>
+</div>

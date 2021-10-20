@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+button {
+  all: unset;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: 'Orbitron', Verdana, Geneva, Tahoma, sans-serif;
+  padding: .33em .5em;
+  border-radius: 9999px;
+  background: rgb(36, 180, 36);
+  color: white;
+  transition: .2s;
+  cursor: pointer;
+  user-select: none;
+  touch-action: pinch-zoom;
+}
+
+button:hover {
+  background: rgb(29, 160, 29);
+}
+
+button:active {
+  transform: scale(.975);
+}

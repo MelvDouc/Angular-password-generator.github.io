@@ -1,0 +1,13 @@
+input {
+  max-width: 50px;
+  font-size: 1.05rem;
+  text-align: end;
+  padding: .1em .2em;
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
